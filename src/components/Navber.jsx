@@ -2,32 +2,35 @@ import React from 'react'
 import Container from '../layer/Container'
 
 import { Link } from 'react-router-dom'
+import { FcShop } from 'react-icons/fc'
 const Navber = () => {
   return (
-    <nav className=''>
+    <nav className='bg-green-50'>
         <Container>
-           <div className='flex justify-between py-7 px-5'>
+           <div className='flex justify-between items-center py-7 px-5'>
 
-          <div className="logo font-extrabold text-2xl text-green-600 italic">BAZAARDHOR
-           
+         <div className='flex gap-3 items-center'>
+           <span><FcShop /></span>
+          <div className="logo font-extrabold text-2xl text-green-800 italic">BAZAARDHOR
+         </div>
          </div>
 
          <div className="menu ">
-          <ul className='flex gap-12 items-center'>
+          <ul className='flex gap-12 items-center justify-center'>
             <li>
-              <Link className='text-[24px] font-sans transition-all duration-300 hover:text-green-600'>Home</Link>
+              <Link className='text-[24px] font-sans transition-all duration-300 hover:text-green-800 text-green-600'>Home</Link>
             </li>
             <li>
-              <Link className='text-[24px] font-sans transition-all duration-300 hover:text-green-600'>About</Link>
+              <Link className='text-[24px] font-sans transition-all duration-300 hover:text-green-800 text-green-600'>About</Link>
             </li>
             <li>
-              <Link className='text-[24px] font-sans transition-all duration-300 hover:text-green-600'>Shop</Link>
+              <Link className='text-[24px] font-sans transition-all duration-300 hover:text-green-800 text-green-600'>Shop</Link>
             </li>
             <li>
-              <Link className='text-[24px] font-sans transition-all duration-300 hover:text-green-600'>Category</Link>
+              <Link className='text-[24px] font-sans transition-all duration-300 hover:text-green-800 text-green-600'>Category</Link>
             </li>
             <li>
-              <Link className='text-[24px] font-sans transition-all duration-300 hover:text-green-600'>Contact</Link>
+              <Link className='text-[24px] font-sans transition-all duration-300 hover:text-green-800 text-green-600'>Contact</Link>
             </li>
           </ul>
          </div>
