@@ -48,7 +48,47 @@ const Footer = () => {
          </ul>
           </div>
           
+      <div className=''>
+         <h3 className='font-extrabold text-2xl text-green-600 italic'>Quick Links</h3>
+         <ul className='mt-5'>
+          <li>
+            <Link className='mt-5 font-bold text-white'>Contact Us</Link>
+          </li>
+          <li>
+            <Link className='mt-5 font-bold text-white'>Shop all products</Link>
+            <li>
+            <Link className='mt-5 font-bold text-white'>Specal offer</Link>
+          </li>
+           <li>
+            <Link className='mt-5 font-bold text-white'>Recipes & Blog</Link>
+          </li>
+          <li>
+            <Link className='mt-5 font-bold text-white'>Carrar</Link>
+          </li>
+          </li>
+         </ul>
+          </div>
 
+          <div className=''>
+         <h3 className='font-extrabold text-2xl text-green-600 italic'>Quick Links</h3>
+         <ul className='mt-5'>
+          <li>
+            <Link className='mt-5 font-bold text-white'>Contact Us</Link>
+          </li>
+          <li>
+            <Link className='mt-5 font-bold text-white'>Shop all products</Link>
+            <li>
+            <Link className='mt-5 font-bold text-white'>Specal offer</Link>
+          </li>
+           <li>
+            <Link className='mt-5 font-bold text-white'>Recipes & Blog</Link>
+          </li>
+          <li>
+            <Link className='mt-5 font-bold text-white'>Carrar</Link>
+          </li>
+          </li>
+         </ul>
+          </div>
         </div>
        </Container>
 

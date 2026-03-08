@@ -28,7 +28,7 @@ const Catagoty = () => {
 
            <div className='relative text-green-600 text-[16px] font-sans font-normal bg-gray-400 rounded-[10px]'>
             <div className='w-10 h-8 absolute top-1/2 left-1/2 -translate-y-1/2'>
-                <Link>
+                <Link to='/vegetable'>
                 <img className='w-full' src={vege} alt="" />
                 </Link>
                 <span className='font-sans text-[18px] font-normal'>Vegetable</span>
